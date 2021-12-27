@@ -21,7 +21,7 @@ $$ prior \alpha likelihood $$
 
 which generates $$N~(\mu_1, \sigma_1^2)$$ with 
 
-![](https://latex.codecogs.com/png.image?\dpi{110}&space;\sigma_1&space;=&space;(1/\sigma_0^2&plus;1/\sigma^2)^-1 title="\sigma_1 = (1/\sigma_0^2+1/\sigma^2)^-1)) 
+![equation](https://latex.codecogs.com/png.image?\dpi{110}&space;\sigma_1&space;=&space;(1/\sigma_0^2&plus;1/\sigma^2)^-1 title="\sigma_1 = (1/\sigma_0^2+1/\sigma^2)^-1)) 
 
 and $$\mu_1 = \sigma_1 * (\mu_0/\sigma_0^2 + \bar{x}/\sigma^2/n).
 
