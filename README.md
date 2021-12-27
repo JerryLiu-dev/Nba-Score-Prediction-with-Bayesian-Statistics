@@ -19,7 +19,11 @@ We then get filter for each circumstance and team, and we get the means and vari
 
 $$ prior \alpha likelihood $$
 
-which generates $$N~(\mu_1, \sigma_1^2)$$ with ![](https://latex.codecogs.com/png.image?\dpi{110}&space;\sigma_1&space;=&space;(1/\sigma_0^2&plus;1/\sigma^2)^-1 title="\sigma_1 = (1/\sigma_0^2+1/\sigma^2)^-1) and $$\mu_1 = \sigma_1 * (\mu_0/\sigma_0^2 + \bar{x}/\sigma^2/n)$$.
+which generates $$N~(\mu_1, \sigma_1^2)$$ with 
+
+![](https://latex.codecogs.com/png.image?\dpi{110}&space;\sigma_1&space;=&space;(1/\sigma_0^2&plus;1/\sigma^2)^-1 title="\sigma_1 = (1/\sigma_0^2+1/\sigma^2)^-1)) 
+
+and $$\mu_1 = \sigma_1 * (\mu_0/\sigma_0^2 + \bar{x}/\sigma^2/n).
 
 With the posterior Normal distributions generated for each respective team, we can combine their distributions as we know the sum of Normal Distributions is just $$N~(\mu_x+\mu_y, \sigma_x^2 + \sigma_y^2)$$.
 
