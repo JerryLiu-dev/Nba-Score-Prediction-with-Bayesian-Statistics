@@ -17,7 +17,7 @@ playing at: Home/Rested, Home/Not Rested, Away/Rested, and Away/Not Rested.
 
 We then get filter for each circumstance and team, and we get the means and variances given any game we take note of which prior to choose based on their circumstance and generate a posterior distribution with the formula: 
 
-$$ prior \alpha likelihood $$
+![equation]<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;&space;prior&space;\alpha&space;likelihood" title=" prior \alpha likelihood" />
 
 which generates $$N~(\mu_1, \sigma_1^2)$$ with 
 
