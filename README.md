@@ -21,7 +21,7 @@ We then get filter for each circumstance and team, and we get the means and vari
 
 which generates $$N~(\mu_1, \sigma_1^2)$$ with 
 
-(https://latex.codecogs.com/svg.image?%20%5Cmu_1%20=%20%5Csigma_1%20*%20(%5Cmu_0/%5Csigma_0%5E2%20&plus;%20%5Cbar%7Bx%7D/%5Csigma%5E2/n)) 
+![equation](https://latex.codecogs.com/svg.image?%20%5Cmu_1%20=%20%5Csigma_1%20*%20(%5Cmu_0/%5Csigma_0%5E2%20&plus;%20%5Cbar%7Bx%7D/%5Csigma%5E2/n)) 
 
 and $$\mu_1 = \sigma_1 * (\mu_0/\sigma_0^2 + \bar{x}/\sigma^2/n).
 
