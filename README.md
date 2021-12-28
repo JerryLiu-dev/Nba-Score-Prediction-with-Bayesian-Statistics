@@ -19,7 +19,7 @@ We then get filter for each circumstance and team, and we get the means and vari
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;&space;prior&space;&space;\alpha&space;&space;likelihood" title=" prior \alpha likelihood" />
 
-which generates $$N~(\mu_1, \sigma_1^2)$$ with 
+which generates <img src="https://latex.codecogs.com/svg.image?N\sim(\mu_1,&space;\sigma_1^2)" title="N\sim(\mu_1, \sigma_1^2)" /> with 
 
 ![equation](https://latex.codecogs.com/svg.image?%20%5Cmu_1%20=%20%5Csigma_1%20*%20(%5Cmu_0/%5Csigma_0%5E2%20&plus;%20%5Cbar%7Bx%7D/%5Csigma%5E2/n)) 
 
