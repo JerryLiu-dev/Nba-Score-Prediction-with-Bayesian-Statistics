@@ -23,9 +23,9 @@ which generates $$N~(\mu_1, \sigma_1^2)$$ with
 
 ![equation](https://latex.codecogs.com/svg.image?%20%5Cmu_1%20=%20%5Csigma_1%20*%20(%5Cmu_0/%5Csigma_0%5E2%20&plus;%20%5Cbar%7Bx%7D/%5Csigma%5E2/n)) 
 
-and $$\mu_1 = \sigma_1 * (\mu_0/\sigma_0^2 + \bar{x}/\sigma^2/n).
+and <img src="https://latex.codecogs.com/svg.image?\mu_1&space;=&space;\sigma_1&space;*&space;(\mu_0/\sigma_0^2&space;&plus;&space;\bar{x}/\sigma^2/n)" title="\mu_1 = \sigma_1 * (\mu_0/\sigma_0^2 + \bar{x}/\sigma^2/n)" />.
 
-With the posterior Normal distributions generated for each respective team, we can combine their distributions as we know the sum of Normal Distributions is just $$N~(\mu_x+\mu_y, \sigma_x^2 + \sigma_y^2)$$.
+With the posterior Normal distributions generated for each respective team, we can combine their distributions as we know the sum of Normal Distributions is just <img src="https://latex.codecogs.com/svg.image?N\sim&space;(\mu_x&plus;\mu_y,&space;\sigma_x^2&space;&plus;&space;\sigma_y^2)" title="N\sim (\mu_x+\mu_y, \sigma_x^2 + \sigma_y^2)" />.
 
 Finally with this Summed Normal we will find the CDF, or probability that we get less than a certain point, of the score that was allotted in the betting site. From there we should know whether over or under is better.
 
@@ -34,4 +34,4 @@ DraftKings did well,
 
 ![alt text](https://github.com/JerryLiu-dev/Nba-Score-Prediction-with-Bayesian-Statistics/blob/main/images/nbares.PNG)
 
-Our distribution yielded around .4999 percent will be under, which we can roughly say is 50%. So we did not do better than a coin flip and will succumb to gambler's ruin if we do this in the long term and ultimately go bankrupt in a long streak of losses.
+Our distribution yielded around .4999 percent will be under, which we can roughly say is 50%. So we did not do better than a coin flip and will succumb to gambler's ruin if we do this in the long term and ultimately go bankrupt in a long streak of losses. What's more, notice that the number 211 is right at the middle of our normal distribution, in a game where you have to guess over or under this specific number, your chances of winning will always be slightly lower than 50%, which is abysmal odds that you cannot overcome.
